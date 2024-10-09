@@ -1,0 +1,148 @@
+table {
+    table-layout: fixed;
+}
+
+tbody tr:nth-child(1) 
+{
+    background-color: #108f8f;
+    color: #000000;
+}
+
+tbody tr:nth-child(1):hover 
+{
+    background-color: #000000;
+    color: #108f8f;
+}
+
+tbody tr:nth-child(2) 
+{
+    background-color: #f5f510;
+    color: #BA3D3D;
+}
+
+tbody tr:nth-child(2):hover 
+{
+    background-color: #BA3D3D;
+    color: #f5f510;
+}
+
+.gear-base {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 100px;
+    left: 10px;
+}
+
+.center {
+    position:absolute;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: white;
+    top: 30%;
+    left: 30%;
+}
+
+.circle-bottom {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    top: 90%;
+    left: 40%;
+}
+.circle-top {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 90%;
+    left: 40%;
+}
+
+.circle-right {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    top: 40%;
+    left: 90%;
+}
+
+.circle-left {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    top: 40%;
+    right: 90%;
+}
+
+.circle-upper-right {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    top: 5%;
+    left: 75%;
+}
+
+.circle-upper-left {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    top: 5%;
+    right: 75%;
+}
+
+.circle-lower-right {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 5%;
+    left: 75%;
+}
+
+.circle-lower-left {
+    position:absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 5%;
+    right: 75%;
+}
+
+.gear {
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    background-color: gray;
+    top: 100px;
+    left: 120px;
+
+}
+
+.tooth {
+    position: absolute;
+    width: 20%; 
+    height: 20%; 
+    border-radius: 50%;
+    background-color: white; 
+    top: 40%; 
+    left: 40%; 
+    transform: rotate(calc(var(--i) * 45deg)) translateY(250%); 
+}

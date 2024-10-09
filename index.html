@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Горбань Т.П. ІК-24 Лаб.2 Вар.10</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <table border="1">
+        <!--Це перший ряд таблици:-->
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2">Горбань</td>
+            <td>Тарас</td>
+            <td rowspan="2">Петрович</td>
+        </tr>
+    
+        <!--Це другий ряд таблици:-->
+        <tr>
+            <td colspan="2">ІК-24</td>
+            <td>ЛР-2 Варіант 10</td>
+        </tr>
+    
+        <!--Це третій ряд таблици:-->
+        <tr>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+    </table>
+    <!--Це фігура створенна за допомогою position:-->
+    <div class="gear-base">
+        <div class="center"></div>
+        <div class="circle-bottom"></div>
+        <div class="circle-top"></div>
+        <div class="circle-right"></div>
+        <div class="circle-left"></div>
+        <div class="circle-upper-right"></div>
+        <div class="circle-upper-left"></div>
+        <div class="circle-lower-right"></div>
+        <div class="circle-lower-left"></div>
+    </div>
+    <!--Це фігура створенна за допомогою transform:-->
+    <div class="gear">
+        <div class="center"></div>
+        <div class="tooth" style="--i: 0;"></div>
+        <div class="tooth" style="--i: 1;"></div>
+        <div class="tooth" style="--i: 2;"></div>
+        <div class="tooth" style="--i: 3;"></div>
+        <div class="tooth" style="--i: 4;"></div>
+        <div class="tooth" style="--i: 5;"></div>
+        <div class="tooth" style="--i: 6;"></div>
+        <div class="tooth" style="--i: 7;"></div>
+    </div>
+</body>
+</html>
